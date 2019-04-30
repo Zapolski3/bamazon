@@ -13,7 +13,8 @@ stock_quantity INTEGER DEFAULT 0,
 PRIMARY KEY (id)
 );
 
-INSERT INTO products(product_name, department_name, price, stock_quantity)
+INSERT INTO products(product_name, department_name, price
+, stock_quantity)
 value('Dog Bone', 'Pets', 2.00, 15),
 ('Dog Leash', 'Pets', 15.00, 20),
 ('Days Gone', 'Video Game', 59.99, 30),
